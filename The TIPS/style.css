@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'abys';
+    src: url('assets/fonts/abys.otf') format('opentype');}
+
+body{
+    background-color: rgb(0, 51, 72);
+    
+    
+}
+::-webkit-scrollbar{
+        width: 0px;}
+.hdr{
+    background-color: rgb(20, 159, 228);
+    color: rgb(244, 244, 244);
+    text-align: center;
+    border-radius: 18px;
+    font-family:'abys';
+    margin-top: 0px;
+}
+
+.hdr h2{
+    letter-spacing: 3px;
+    font-size: 3em;
+    font-weight:lighter;
+}
+
+
+.card{
+    background-color: rgb(0, 30, 43);
+    border-radius: 12px;
+    border: 1px solid rgb(20, 159, 228);
+    padding: 8px 16px;
+    color:rgb(43, 148, 201) ;
+    margin-bottom: 26px;
+}
+
+.card h4{
+    color:rgb(43, 148, 201) ;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.card p {
+    word-wrap: break-word;
+    width: auto;
+    min-width: 40px;
+    color:rgb(43, 148, 201);
+    
+}
+
+.cards{
+    padding: 0px 38px;
+    
+}
+
+.nav{
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+    background-color:rgb(0, 30, 43);
+    width: 100%;
+    margin: -14px;
+    display: flex;
+    padding: 18px 16px;
+
+}
+
+.nav img{
+    height: 30px;
+    margin-bottom: -18px;
+}
+
+.nav p{
+    padding-bottom: 18px;
+    text-align: center;
+}
+
+.nbtn{
+    
+    border-radius: 20px;
+    text-align: center;
+    width: 160px;
+
+}
+
+#inanbtn:hover{
+    background-color: rgb(33, 57, 67) ;
+}
+#anbtn:hover{
+    background-color: rgb(33, 57, 67) ;
+}
+
+#inanbtn:active{
+    background-color: rgb(43, 148, 201) ;
+}
+#anbtn:active{
+    background-color: rgb(43, 148, 201) ;
+}
+
+
+.k{
+    width: 30%;
+}
+
+#anbtn{
+    background-color: rgb(0, 51, 72); 
+}
+
+#inanbtn{
+    background-color: rgb(0, 30, 43); 
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
